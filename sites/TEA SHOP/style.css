@@ -1,0 +1,178 @@
+/* Universal Styles */
+
+html {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+header #logo {
+    padding-left: 10px;
+    height: 50px;
+}
+
+header nav {
+    position: absolute;
+    left: 75%;
+}
+
+header nav ul {
+    display: inline-flex;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: seashell;
+    text-decoration: underline;
+    padding: 0 5px;
+}
+
+/* Corpo com Imagem */
+
+#main-content {
+    padding-top: 69px;
+}
+
+#main-content .square {
+    display: flex;
+    height: 700px;
+    background-color: black;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*uhqkqf*_ga*NDM5NDEyMDYyNS4xNjgwNjM1MjMy*_ga_3LRZM6TM9L*MTY4NDAwMjkyNi40My4wLjE2ODQwMDI5MjYuNjAuMC4w");
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main-content .square .text-square {
+    width: 1200px;
+    background-color: black;
+}
+
+#main-content .square .text-square h2 {
+    margin: 0;
+}
+
+#main-content .square .text-square h4 {
+    margin-top: 0.65rem;
+    margin-bottom: 0;
+}
+
+/* Cha do Mes */
+
+#chas-do-mes {
+    text-align: center;
+    width: 100%;
+}
+
+#chas-do-mes .imagens-cha {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.imagens-cha img {
+    width: 300px;
+    height: 200px;
+}
+
+.imagens-cha figure {
+    font-size: 22px;
+}
+
+.imagens-cha figure figcaption {
+    padding-top: 10px;
+}
+
+/* Locations */
+
+#locations {
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*5x8spj*_ga*NDM5NDEyMDYyNS4xNjgwNjM1MjMy*_ga_3LRZM6TM9L*MTY4NDAwMjkyNi40My4wLjE2ODQwMDI5MjYuNjAuMC4w");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#locations h2 {
+    width: 100%;
+    margin: 0;
+}
+
+#locations .inside-image {
+    margin-top: 15px;
+    display: flex;  
+}
+
+#locations .inside-image .downtown {
+    margin-right: 20px;
+    width: 300px;
+    background-color: black;
+}
+
+#locations .inside-image .east-bayside {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+    background-color: black;
+}
+
+#locations .inside-image .oakdale {
+    margin-left: 20px;
+    width: 300px;
+    background-color: black;
+}
+
+/* Footer */
+
+footer .contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+footer .copyright {
+    position: relative;
+    left: 20px;
+}
+
+
+
+
+
+
+
