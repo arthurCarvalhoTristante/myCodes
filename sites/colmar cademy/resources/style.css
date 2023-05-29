@@ -1,0 +1,17 @@
+html {
+    font-size: 16px;
+}
+
+/* Header */
+
+header img {
+ visibility: hidden;
+}
+
+header .logo {
+    visibility: visible;
+}
+
+header {
+    display: flex;
+}
